@@ -1,0 +1,39 @@
+---
+swagger: "2.0"
+info:
+  description: "defaultDescription"
+  version: "0.1"
+  title: "HarryPotterAPI"
+paths:
+  /api/characters/house/slytherin:
+    get:
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "Definition generated from Swagger Inspector"
+  /api/characters:
+    get:
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        "200":
+          description: "Definition generated from Swagger Inspector"
+        default:
+          description: "Definition generated from Swagger Inspector"
+  /api/characters/{param0}:
+    get:
+      produces:
+      - "application/json"
+      parameters:
+      - name: "param0"
+        in: "path"
+        description: "Example values form path are: 'staff' and 'students'"
+        required: true
+        type: "string"
+        x-exportParamName: "Param0"
+      responses:
+        "200":
+          description: "Definition generated from Swagger Inspector"
